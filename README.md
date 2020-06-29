@@ -80,6 +80,8 @@ The library supports configuration files written in the [HashiCorp Configuration
 
 ```hcl
 telemetry {
+  metrics_prefix = ""
+
   stdout {
     period = "60s"
     pretty_print = false
